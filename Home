@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1>Natures' Garden</h1>
+    <br>
+        <p>Natural and Organic Products for a Healthier Lifestyle</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="products.html">Products</a> |
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+   <br>
+    <main></main>
+</h2>Welcome to Natures' Garden</h2>
+
+            <p>
+                Welcome to Natures' Garden, a small business that provides
+                natural and organic products for everyday use.
+            <br>
+                Our products are made with natural ingredients and are
+                designed to support a healthy and natural lifestyle.
+            </p>
+
+            <img src="https://natrue.org/uploads/2020/05/NATRUE_article.png" alt="No Picture found" width="400"img>
+    
+        
+            <h2>About Us</h2>
+
+            <p>
+                Natures' Garden was created to provide customers with
+                natural products that are simple, affordable and easy to use.
+            </p>
+
+            <p>
+                We believe that nature provides many useful ingredients
+                that can be included in our everyday lives.
+            </p>
+
+            <h2>Our Products</h2>
+
+            <ul>
+                <li>Herbal Tea</li>
+                <li>Wellness Gummies</li>
+                <li>Collagen Powder</li>
+            </ul>
+    
+            <h2>Why Choose Natures' Garden?</h2>
+
+            <ol>
+                <li>Natural ingredients</li>
+                <li>Quality products</li>
+                <li>Affordable prices</li>
+                <li>Friendly customer service</li>
+            </ol>
+
+            <h2>Contact Us</h2>
+
+            <p>Email: info@naturesgarden.com</p>
+            <p>Phone: 012 345 6789</p>
+            <p>Location: Durban, South Africa</p>
+
+    </main>
+
+</body>
+</html>
