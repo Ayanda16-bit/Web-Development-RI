@@ -97,6 +97,7 @@ Changelog
 - Created the Home page.
 - Planned the website pages and product information.
   
+  iStock (n.d.) Cosmetic skin care products on green leaves [Photograph]. Available at: iStock image (Accessed: 14 August 2026).
 References
 GitHub (2026) *GitHub Documentation*. Available at: https://docs.github.com/ (Accessed: 14 August 2026).
 MDN Web Docs (2026) *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 14 August 2026).
