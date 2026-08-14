@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enquires - Natures' Garden</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Natures' Garden</h1>
+        <p>Natural and Organic Products for a Healthier Lifestyle</p>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About Us</a> |
+        <a href="Products.html">Products/Services</a> |
+        <a href="Contact.html">Contact Us</a> |
+        <a href="Enquires.html">Enquires</a>
+    </nav>
+
+    <main>
+
+        <h2>Enquiries</h2>
+
+        <p>
+            Please fill in the form below if you have any questions
+            about our products.
+        </p>
+
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <br>
+
+            <textarea id="message" name="message"
+                rows="5" cols="40"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2026 Natures' Garden</p>
+    </footer>
+
+</body>
+</html>
