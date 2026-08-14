@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Natures' Garden</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Natures' Garden</h1>
+        <p>Natural and Organic Products for a Healthier Lifestyle</p>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About Us</a> |
+        <a href="Products.html">Products/Services</a> |
+        <a href="Contact.html">Contact Us</a> |
+        <a href="Enquires.html">Enquires</a>
+    </nav>
+
+    <main>
+
+        <h2>About Us</h2>
+
+        <p>
+            Natures' Garden was created to provide customers with
+            natural products that are simple, affordable and easy to use.
+        </p>
+
+        <p>
+            
+
+        <h2>Our Mission</h2>
+
+        <p>
+            To provide high-quality, natural and organic products that promote healthier lifestyles while protecting the environment through sustainable and responsible practices.
+        </p>
+
+        <h2>Our Values</h2>
+
+        <p>To become a trusted organic brand that inspires healthier living, sustainable choices and a better future for people and the planet.</p>
+        <ul>
+            <li>Natural ingredients</li>
+            <li>Good quality products</li>
+            <li>Affordable prices</li>
+            <li>Customer satisfaction</li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2026 Natures' Garden</p>
+    </footer>
+
+</body>
+</html>
