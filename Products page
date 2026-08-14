@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Natures' Garden</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Natures' Garden</h1>
+        <p>Natural and Organic Products for a Healthier Lifestyle</p>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About Us</a> |
+        <a href="Products.html">Products/Services</a> |
+        <a href="Contact.html">Contact Us</a> |
+        <a href="Enquires.html">Enquires</a>
+    </nav>
+
+    <main>
+
+        <h2>Our Products</h2>
+
+        <p>
+            Natures' Garden provides different natural and organic
+            products for everyday use.
+        </p>
+        <img src="images./Herbal Tea.jpg" alt="Herbal Tea" width="200">
+
+        <h3>Herbal Teas</h3>
+
+        <p>
+            Enjoy our herbal teas made from carefully selected natural ingredients to support a healthy lifestyle.
+        </p>
+        <img src="images./Gummies.jpg" alt="Gummies" width="200">
+        <h3>Wellness Gummies</h3>
+
+        <p>
+           Convenient and tasty gummies designed for customers looking for an easy addition to their daily wellness routine.
+        </p>
+     <img src="images./Collegen Powder.jpg" alt="Collegen Powder" width="200">
+
+
+        <h3>Collegen Powder</h3>
+
+        <p>
+           Collagen powder that can be easily added to drinks or smoothies as part of a daily wellness routine. 
+        </p>
+
+        <p>
+            Explore our range of natural body products designed for everyday personal care and wellness.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2026 Natures' Garden</p>
+    </footer>
+
+</body>
+</html>
+
