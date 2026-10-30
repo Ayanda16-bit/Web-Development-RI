@@ -96,10 +96,42 @@ Changelog
 - Created the basic HTML structure.
 - Created the Home page.
 - Planned the website pages and product information.
-  
-  iStock (n.d.) Cosmetic skin care products on green leaves [Photograph]. Available at: iStock image (Accessed: 14 August 2026).
-References
-GitHub (2026) *GitHub Documentation*. Available at: https://docs.github.com/ (Accessed: 14 August 2026).
-MDN Web Docs (2026) *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 14 August 2026).
-W3Schools (2026) *HTML Tutorial*. Available at: https://www.w3schools.com/html/ (Accessed: 14 August 2026).
-W3Schools (2026) *CSS Tutorial*. Available at: https://www.w3schools.com/css/ (Accessed: 14 August 2026).
+- Version 1.1 - 26 October 2026
+-Added business location information to the website.
+-Worked on integrating location details into the website.
+-Continued improving the image lightbox and troubleshooting its display.
+-Reviewed website layout and navigation consistency.
+-Maintained the existing botanical theme and styling.
+-Version 1.2 - 28 October 2026
+-Added an interactive shopping cart.
+-Implemented a running total and product quantity controls.
+-Added product filtering and price sorting.
+-Added WhatsApp enquiry functionality.
+-Implemented scroll animations and a back-to-top button.
+-Worked on improving the image lightbox functionality.
+-Continued improving the website's JavaScript functionality.
+Version 1.3 - 30 October 2026
+-Added an interactive customer review form.
+-Implemented star ratings and product selection for customer reviews.
+-Added JavaScript validation to prevent numbers from being entered in the customer name field.
+-Implemented localStorage to retain submitted reviews in the same browser.
+-Updated the README to document additional website features and development progress.
+-Prepared and committed website updates to GitHub.
+## Technologies Used
+- **HTML5:** Used to structure the website and its content.
+- **CSS3:** Used for styling, page layouts, colours and responsive design.
+- **JavaScript:** Used to implement interactive features such as the shopping cart, product filtering, form validation and customer reviews.
+- **Visual Studio Code:** Used as the development environment.
+- **Git and GitHub:** Used for version control, committing changes and storing the project repository.
+- **Local Storage:** Used to retain customer reviews in the user's browser.
+
+iStock. (n.d.). Natural and organic product images. Available at: https://www.istockphoto.com/
+GitHub. (n.d.). GitHub documentation. Available at: https://docs.github.com/
+MDN Web Docs. (n.d.). HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+W3Schools. (n.d.). HTML Tutorial. Available at: https://www.w3schools.com/html/
+W3Schools. (n.d.). CSS Tutorial. Available at: https://www.w3schools.com/css/
+MDN Web Docs. (n.d.). JavaScript Guide. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+MDN Web Docs. (n.d.). Document Object Model (DOM). Available at: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+MDN Web Docs. (n.d.). Web Storage API. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+W3Schools. (n.d.). JavaScript Tutorial. Available at: https://www.w3schools.com/js/
+W3Schools. (n.d.). JavaScript HTML DOM. Available at: https://www.w3schools.com/js/js_htmldom.asp
