@@ -124,6 +124,25 @@ Version 1.3 - 30 October 2026
 - **Visual Studio Code:** Used as the development environment.
 - **Git and GitHub:** Used for version control, committing changes and storing the project repository.
 - **Local Storage:** Used to retain customer reviews in the user's browser.
+## Search Engine Optimisation (SEO)
+
+SEO techniques were implemented throughout the Natures' Garden website to improve its visibility on search engines and make the website easier for users to discover.
+
+### SEO Techniques Implemented
+
+- **Page Titles:** Each HTML page includes a descriptive and relevant title to help search engines understand its content.
+- **Meta Descriptions:** Relevant meta descriptions are included to provide a brief summary of each webpage in search engine results.
+- **Keywords:** Relevant keywords such as *natural products, organic products, herbal tea, herbal gummies,* and *collagen powder* are incorporated naturally into the website content.
+- **Heading Structure:** HTML heading tags (H1, H2 and H3) are used to organise content and establish a clear information hierarchy.
+- **Image Alt Attributes:** Descriptive alternative text is used for images to improve accessibility and help search engines understand image content.
+- **Descriptive URLs and File Names:** Meaningful page names and image file names are used to make website content easier to identify.
+- **Mobile Responsiveness:** Responsive CSS styling allows the website to function across different screen sizes and devices.
+- **Semantic HTML:** Appropriate HTML elements are used to improve content structure, accessibility and search engine understanding.
+- **Internal Navigation:** Navigation links connect the different website pages, making it easier for users and search engines to explore the website.
+
+### SEO Objective
+
+The main objective of these SEO practices is to improve the website's search engine visibility, enhance user experience, increase accessibility and make it easier for potential customers to find Natures' Garden online.
 
 iStock. (n.d.). Natural and organic product images. Available at: https://www.istockphoto.com/
 GitHub. (n.d.). GitHub documentation. Available at: https://docs.github.com/
