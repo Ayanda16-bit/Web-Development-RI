@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Enquires - Natures' Garden</title>
+    <link rel="stylesheet" href="css/Style.css">
 </head>
-<link rel="stylesheet" href="css/Style.css">
-<body>
+  <body>
 
     <header>
         <h1>Natures' Garden</h1>
@@ -20,6 +20,7 @@
         <a href="Reviews.html">Reviews</a>
         <a href="Contact.html">Contact Us</a> |
         <a href="Enquires.html">Enquires</a>
+        
     </nav>
 
     <main>
@@ -30,37 +31,43 @@
             Please fill in the form below if you have any questions
             about our products.
         </p>
+<section class="contact-form">
+    <h2>Product Enquiry</h2>
 
-        <form>
+    <p>
+        Interested in our natural wellness products?
+        Complete the form below and let us know how we can help.
+    </p>
 
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name">
+    <form id="contactForm" novalidate>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-            <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+        <label for="subject">Product of Interest:</label>
+        <select id="subject" name="product" required>
+            <option value="">Select a product</option>
+            <option value="herbal-tea">Herbal Tea</option>
+            <option value="herbal-gummies">Herbal Gummies</option>
+            <option value="collagen-powder">Collagen Powder</option>
+            <option value="other">Other Enquiry</option>
+        </select>
 
-            <br><br>
+        <label for="message">Your Enquiry:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Ask us about our products..." required></textarea>
 
-            <label for="message">Message:</label>
-            <br>
+        <button type="submit" class="btn">Send Enquiry 🌿</button>
+        <button type="reset" class="btn btn-secondary">Clear</button>
+    </form>
 
-            <textarea id="message" name="message"
-                rows="5" cols="40"></textarea>
+    <p id="formMessage" role="status" aria-live="polite"></p>
+</section>
+<script src="js/script.js"></script>
 
-            <br><br>
-
-            <input type="submit" value="Submit">
-            <input type="reset" value="Clear">
-
-        </form>
-
-    </main>
-
-    <footer>
-        <p>Copyright 2026 Natures' Garden</p>
-    </footer>
-
-</body>
-</html>
+<button id="backToTop" type="button"
+        aria-label="Back to top"
+        title="Back to top">
+    ↑
+</button>
