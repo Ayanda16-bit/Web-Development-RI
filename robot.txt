@@ -1,0 +1,3 @@
+User-agent :
+Allow: /
+Sitemap: https://elaborate-chaja-e344af.netlify.app/sitemap.xml
