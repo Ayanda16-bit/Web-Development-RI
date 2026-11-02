@@ -37,15 +37,23 @@
             <a href="Home.html">Home</a>
 
             <a href="About.html">About Us</a>
-
+            
             <a href="Products.html">Products</a>
-
+            
             <a href="Reviews.html">Reviews</a>
-
+             <a href="Enquires.html">Enquires</a>
             <a href="Contact.html">Contact Us</a>
+          
 <div class="search-box">
-    <input type="text" placeholder="Search...">
-    <button type="button">🔎</button>
+    <form id="siteSearchForm" role="search">
+        <input
+            type="search"
+            id="siteSearchInput"
+            placeholder="Search products..."
+            aria-label="Search Natures' Garden products"
+        >
+        <button type="submit" aria-label="Search">🔎</button>
+    </form>
 </div>
         </nav>
 
@@ -102,16 +110,16 @@
         </section>
 
 <!-- Products Section -->
-<section class="products">
-
+<section class="products" id="homeProducts">
     <h2>Our Products</h2>
 
-    <ul>
+    <ul id="homeProductList">
         <li>Herbal Tea</li>
         <li>Herbal Gummies</li>
         <li>Collagen Powder</li>
     </ul>
 
+    <p id="siteSearchMessage" role="status" aria-live="polite"></p>
 </section>
 
         </section>
@@ -191,6 +199,11 @@
 
     </footer>
 
+<button id="backToTop" type="button"
+        aria-label="Back to top"
+        title="Back to top">
+    ↑
+</button>
 
 </body>
 
