@@ -1,5 +1,5 @@
 
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,11 +24,9 @@
         <span>🌺</span>
     </div>
 
-
     <!-- Navigation -->
     <header>
         <nav>
-
             <img src="images/logo.png"
                  class="logo"
                  alt="Natures' Garden Logo">
@@ -37,18 +35,16 @@
             <a href="About.html">About Us</a>
             <a href="Products.html">Products</a>
             <a href="Reviews.html">Reviews</a>
+            <a href="Enquires.html">Enquires</a>
             <a href="Contact.html">Contact Us</a>
-
         </nav>
     </header>
-
 
     <!-- Main Content -->
     <main>
 
         <!-- Page Introduction -->
         <section class="reviews-header">
-
             <h1>Customer Reviews</h1>
 
             <p>
@@ -56,87 +52,133 @@
                 of our customers. Read what our customers have to say
                 about our products and service.
             </p>
-
         </section>
 
-
-        <!-- Reviews -->
+        <!-- Existing Customer Reviews -->
         <section class="reviews">
-
             <div class="review-card">
-
                 <h3>🌿 Thandi M.</h3>
-
                 <p>
                     "I really enjoyed the herbal tea. It has become
                     part of my daily routine and I love the natural
                     taste."
                 </p>
-
                 <p>★★★★★</p>
-
             </div>
 
-
             <div class="review-card">
-
                 <h3>🌸 Sipho N.</h3>
-
                 <p>
                     "The herbal gummies are convenient and easy to
                     include in my daily routine. I also loved the
                     packaging."
                 </p>
-
                 <p>★★★★★</p>
-
             </div>
 
-
             <div class="review-card">
-
                 <h3>🍃 Lerato K.</h3>
-
                 <p>
                     "I appreciate the focus on natural ingredients
                     and responsible sourcing. The service was also
                     friendly and helpful."
                 </p>
-
                 <p>★★★★☆</p>
+            </div>
+        </section>
 
+        <!-- Submit A Review -->
+        <section class="review-form-section" id="writeReview">
+
+            <h2>Share Your Experience 🌿</h2>
+
+            <p>We would love to hear what you think about our products.</p>
+
+            <form id="reviewForm">
+
+                <label for="customerName">Your Name</label>
+                <input type="text"
+                       id="customerName"
+                       placeholder="Enter your name"
+                       maxlength="40"
+                       required>
+
+                <label for="reviewProduct">Select a Product</label>
+                <select id="reviewProduct" required>
+                    <option value="">Choose a product</option>
+                    <option value="Herbal Tea">Herbal Tea</option>
+                    <option value="Herbal Gummies">Herbal Gummies</option>
+                    <option value="Collagen Powder">Collagen Powder</option>
+                </select>
+
+                <label for="customerRating">Your Rating</label>
+                <select id="customerRating" required>
+                    <option value="">Choose a rating</option>
+                    <option value="5">★★★★★ - Excellent</option>
+                    <option value="4">★★★★☆ - Very Good</option>
+                    <option value="3">★★★☆☆ - Good</option>
+                    <option value="2">★★☆☆☆ - Fair</option>
+                    <option value="1">★☆☆☆☆ - Poor</option>
+                </select>
+
+                <label for="customerMessage">Your Review</label>
+                <textarea id="customerMessage"
+                          rows="5"
+                          maxlength="500"
+                          placeholder="Write your experience here..."
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Submit Review
+                </button>
+
+            </form>
+
+            <p id="reviewMessage" role="status"></p>
+
+        </section>
+
+        <!-- Newly Submitted Reviews -->
+        <section class="submitted-reviews">
+
+            <h2>What Our Customers Say</h2>
+
+            <div id="reviewList" class="reviews">
+                <!-- JavaScript will display submitted reviews here -->
             </div>
 
         </section>
 
-
         <!-- Call To Action -->
         <section class="review-cta">
-
-            <h2>Have Your Own Experience?</h2>
+            <h2>Have Questions?</h2>
 
             <p>
-                We would love to hear from you. Contact us to share
-                your feedback or ask us about our products.
+                Contact us to learn more about our products and services.
             </p>
 
             <a href="Contact.html" class="btn">
                 Contact Us
             </a>
-
         </section>
 
     </main>
 
-
     <!-- Footer -->
     <footer>
-
         <p>
             &copy; 2026 Natures' Garden. All Rights Reserved.
         </p>
-
     </footer>
+
+    <button id="backToTop"
+            type="button"
+            aria-label="Back to top"
+            title="Back to top">
+        ↑
+    </button>
+
+    <script src="js/reviews.js"></script>
 
 </body>
 </html>
