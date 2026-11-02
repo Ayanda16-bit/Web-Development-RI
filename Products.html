@@ -38,6 +38,8 @@
             <a href="Products.html">Products</a>
             <a href="Reviews.html">Reviews</a>
             <a href="Contact.html">Contact Us</a>
+            <a href="Enquires.html">Enquires</a>
+            
 
         </nav>
     </header>
@@ -55,9 +57,31 @@
                 support a healthy and balanced lifestyle.
             </p>
 
+<!-- Product filters -->
+<section class="shop-controls">
+    <label for="categoryFilter">Filter products:</label>
+    <select id="categoryFilter">
+        <option value="all">All products</option>
+        <option value="tea">Herbal Tea</option>
+        <option value="gummies">Herbal Gummies</option>
+        <option value="collagen">Collagen Powder</option>
+    </select>
+
+    <label for="priceSort">Sort by:</label>
+    <select id="priceSort">
+        <option value="default">Default order</option>
+        <option value="low-high">Price: Low to High</option>
+        <option value="high-low">Price: High to Low</option>
+        <option value="name">Name: A to Z</option>
+    </select>
+</section>
+
 
             <!-- Herbal Tea -->
-            <div class="product-card">
+            <div class="product-card"
+                 data-category="tea"
+                 data-price="80"
+                 data-name="Herbal Tea">
 
                 <img src="images/Herbal Tea.jpg"
                      alt="Herbal Tea">
@@ -75,15 +99,19 @@
 
                     <p class="price">R80.00</p>
 
-
+                    <button class="add-to-cart" type="button">
+                     Add to Cart
+                    </button>
                 </div>
 
             </div>
 
 
             <!-- Herbal Gummies -->
-            <div class="product-card">
-
+            <div class="product-card"
+              data-category="gummies"
+              data-price="120"
+              data-name="Herbal Gummies">
                 <img src="images/Gummies.jpg"
                      alt="Herbal Gummies">
 
@@ -98,15 +126,19 @@
                     </p>
 
                     <p class="price">R120.00</p>
-
+                    <button class="add-to-cart" type="button">
+                     Add to Cart
+                    </button>
                 </div>
 
             </div>
 
 
             <!-- Collagen Powder -->
-            <div class="product-card">
-
+            <div class="product-card"
+            data-category="collagen"
+            data-price="150"
+            data-name="Collagen Powder">
                 <img src="images/Collegen Powder.jpg"
                      alt="Collagen Powder">
 
@@ -121,24 +153,59 @@
                     </p>
 
                     <p class="price">R150.00</p>
+                    <button class="add-to-cart" type="button">
+                     Add to Cart
+                    </button>
 
                 </div>
 
             </div>
 
+<!-- Shopping cart -->
+<section id="shoppingCart" class="shopping-cart">
+    <h2>Your Shopping Cart 🛒</h2>
+
+    <p id="cartEmpty">Your cart is empty.</p>
+
+    <ul id="cartItems"></ul>
+
+    <h3>Total: <span id="cartTotal">R0.00</span></h3>
+
+    <button id="clearCart" type="button">
+        Clear Cart
+    </button>
+
+    <button id="checkoutButton" type="button">
+        Enquire on WhatsApp
+    </button>
+
+    <p id="cartMessage" role="status" aria-live="polite"></p>
+</section>
+
+            
         </section>
+   
+     <script src="js/script.js"></script>
+  <div id="lightbox" class="lightbox" hidden>
 
-    </main>
+    <button id="closeLightbox"
+            class="lightbox-close"
+            type="button"
+            aria-label="Close enlarged image">
+        &times;
+    </button>
 
+    <img id="lightboxImage" src="" alt="">
 
-    <!-- Footer -->
-    <footer>
+    <p id="lightboxCaption"></p>
 
-        <p>
-            &copy; 2026 Natures' Garden. All Rights Reserved.
-        </p>
+</div>  
 
-    </footer>
+<button id="backToTop" type="button"
+        aria-label="Back to top"
+        title="Back to top">
+    ↑
+</button>
 
 </body>
 </html>
