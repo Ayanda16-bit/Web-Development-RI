@@ -1612,3 +1612,46 @@ nav .search-box button:hover {
         max-width: 100%;
     }
 }
+/* Product Search Bar */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 35px auto;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #355E3B;
+    border-radius: 35px;
+    overflow: hidden;
+    background: #F7F3EA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+}
+
+.search-box input {
+    flex: 1;
+    padding: 17px 22px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 17px;
+}
+
+.search-box button {
+    padding: 15px 24px;
+    border: none;
+    background: #355E3B;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+    background: #2f3430;
+}
